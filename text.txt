@@ -1,0 +1,15 @@
+database = concessionaria_auto
+
+NOME COLONNA              TIPO DATO        ATTRIBUTI
+-----------------------------------------------------
+car_id                    MEDIUMINT        UNIQUE
+prezzo                    FLOAT()          NOTNULL
+km                        MEDIUMINT        NOTNULL
+immatricolazione          DATE             NOTNULL
+targa                     VARCHAR          UNIQUE
+anno                      YEAR             NOTNULL
+cilindrata                MEDIUMINT        NOTNULL
+cavalli                   TINYNT           NOTNULL
+usato                     TINYINT          NOTNULL
+accessori                 TEXT             NULL
+descrizione               TEXT             NULL
